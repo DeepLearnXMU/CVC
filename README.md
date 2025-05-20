@@ -1,2 +1,2 @@
 # CVC
-Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causality-driven Visual Object Completion" (IJCAI 2025)
+Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causality-Driven Visual Object Completion" (IJCAI 2025)
