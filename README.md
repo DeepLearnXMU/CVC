@@ -8,7 +8,7 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
 
 ### High-Causality Entity Collection
 
-1. Download the [COCO 2017 dataset](https://github.com/salesforce/LAVIS/blob/main/lavis/datasets/download_scripts/download_coco.py) using [LAVIS](https://github.com/salesforce/LAVIS).
+1. Download the [COCO dataset](https://github.com/salesforce/LAVIS/blob/main/lavis/datasets/download_scripts/download_coco.py) using [LAVIS](https://github.com/salesforce/LAVIS).
 2. Format the input into a JSON list. Each entry should contain:
     ```json
     {
@@ -17,12 +17,12 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
     }
     ```
 
-3. Extract entities for each caption using [LLaMA2-7B](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf):
+3. Extract entities for each caption:
     ```bash
     python cvc/data_preparation/1-0_entity_extractor.py
     ```
 
-4. Tag the causality for each entity using [RoBERTa](https://huggingface.co/FacebookAI/roberta-large):
+4. Tag the causality for each entity:
     ```bash
     python cvc/data_preparation/1-1_causality_tagger.py
     ```
