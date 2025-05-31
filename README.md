@@ -8,7 +8,7 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
 
 ### High-Causality Entity Collection
 
-1. Download the [COCO 2017 dataset](https://github.com/salesforce/LAVIS/blob/main/lavis/datasets/download_scripts/download_coco.py) using [LAVIS](https://github.com/salesforce/LAVIS).
+1. Download the [COCO dataset](https://github.com/salesforce/LAVIS/blob/main/lavis/datasets/download_scripts/download_coco.py) using [LAVIS](https://github.com/salesforce/LAVIS).
 2. Format the input into a JSON list. Each entry should contain:
     ```json
     {
