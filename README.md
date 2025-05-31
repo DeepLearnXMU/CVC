@@ -76,7 +76,7 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
     ```
 
 
-2. Download the [pretrained LLaVA-1.5 checkpoint](https://huggingface.co/liuhaotian/llava-v1.5-mlp2x-336px-pretrain-vicuna-7b-v1.5) and use [the official LLaVA training script](https://github.com/haotian-liu/LLaVA/blob/main/scripts/v1_5/finetune.sh) for model training.
+2. Download [the pretrained LLaVA-1.5 checkpoint](https://huggingface.co/liuhaotian/llava-v1.5-mlp2x-336px-pretrain-vicuna-7b-v1.5) and use [the official LLaVA training script](https://github.com/haotian-liu/LLaVA/blob/main/scripts/v1_5/finetune.sh) for model training.
 
 
 
