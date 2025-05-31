@@ -2,7 +2,9 @@
 Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causality-driven Visual Object Completion" (IJCAI 2025)
 
 
-
+<p align="center">
+  <img src="figures/cvc.jpg" alt="CVC" width="400"/>
+</p>
 
 ## Data Preparation
 
