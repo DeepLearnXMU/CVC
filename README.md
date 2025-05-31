@@ -17,12 +17,12 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
     }
     ```
 
-3. Extract entities for each caption using [LLaMA2-7B](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf):
+3. Extract entities for each caption:
     ```bash
     python cvc/data_preparation/1-0_entity_extractor.py
     ```
 
-4. Tag the causality for each entity using [RoBERTa](https://huggingface.co/FacebookAI/roberta-large):
+4. Tag the causality for each entity:
     ```bash
     python cvc/data_preparation/1-1_causality_tagger.py
     ```
