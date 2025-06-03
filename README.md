@@ -44,10 +44,14 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
     python cvc/data_preparation/2-2_segment.py
     ```
 
-3. Generate the specific instruction for each high-causality entity:
-    ```bash
-    python cvc/data_preparation/2_instruction_generator.py
-    ```
+---
+
+### Instruction Generation
+
+Generate the specific instruction for each high-causality entity:
+  ```bash
+  python cvc/data_preparation/2_instruction_generator.py
+  ```
 
 
 ## Model Training
