@@ -73,6 +73,8 @@ Code for "Boosting Visual Knowledge-Intensive Training for LVLMs through Causali
     python cvc/model_training/3_answer_checker.py
     ```
 
+---
+
 ### Trial Learning
 1. Collect challenging successful CVC instances and construct the training data using hybrid formats. The resulting dataset is combined with [the instruction data of LLaVA-1.5](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json):
     ```bash
